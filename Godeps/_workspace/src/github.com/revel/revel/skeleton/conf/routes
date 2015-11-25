@@ -5,10 +5,6 @@
 module:testrunner
 
 GET     /                                       App.Index
-GET     /Me										App.Me
-GET     /Me/:id									App.Menumber
-GET		/Mepost								App.Mepost
-POST	/Mepost								App.Mesetpost
 
 # Ignore favicon requests
 GET     /favicon.ico                            404
